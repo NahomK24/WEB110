@@ -1,0 +1,251 @@
+/* 
+   Nahom
+   April 1, 2025
+   Personal Portfolio Website - External CSS Stylesheet
+*/
+
+/* ======= GENERAL STYLES ======= */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ======= TEXT STYLES ======= */
+h1, h2, h3, h4 {
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.25em;
+}
+
+p {
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ======= HEADER ======= */
+header {
+    background-color: #0066cc;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+header h2 {
+    color: #fff;
+    font-weight: 300;
+}
+
+/* ======= NAVIGATION ======= */
+nav {
+    background-color: #333;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+nav a {
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5em 1em;
+}
+
+nav a:hover, nav a.current {
+    background-color: #0066cc;
+    text-decoration: none;
+}
+
+/* ======= MAIN CONTENT ======= */
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+/* ======= HOME PAGE STYLES ======= */
+.profile-container {
+    display: flex;
+    gap: 2em;
+    margin-bottom: 2em;
+}
+
+.profile-img {
+    width: 30%;
+    border: 1px solid #ddd;
+}
+
+.bio {
+    width: 70%;
+}
+
+.skills-container {
+    display: flex;
+    gap: 2em;
+}
+
+.skills-column {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 1em;
+    border: 1px solid #ddd;
+}
+
+.contact-info {
+    background-color: #f9f9f9;
+    padding: 1em;
+    border: 1px solid #ddd;
+    margin: 1em 0;
+}
+
+/* ======= PORTFOLIO PAGE STYLES ======= */
+.project {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+
+.project:last-child {
+    border-bottom: none;
+}
+
+.project-container {
+    display: flex;
+    gap: 2em;
+    margin-top: 1em;
+}
+
+.project-img {
+    width: 40%;
+    border: 1px solid #ddd;
+}
+
+.project-details {
+    width: 60%;
+}
+
+.project-date {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 1em;
+}
+
+.project-link {
+    display: inline-block;
+    background-color: #0066cc;
+    color: white;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+}
+
+.project-link:hover {
+    background-color: #0055aa;
+    text-decoration: none;
+}
+
+/* ======= RESUME PAGE STYLES ======= */
+.resume-header {
+    display: flex;
+    gap: 2em;
+    margin-bottom: 2em;
+}
+
+.resume-img {
+    width: 20%;
+    border: 1px solid #ddd;
+}
+
+.resume-contact {
+    width: 80%;
+}
+
+.resume-download {
+    background-color: #f9f9f9;
+    padding: 1em;
+    border: 1px solid #ddd;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.education-item, .experience-item {
+    margin-bottom: 1.5em;
+}
+
+.institution, .company, .date {
+    color: #666;
+}
+
+.skills-grid {
+    display: flex;
+    gap: 2em;
+}
+
+.skill-category {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 1em;
+    border: 1px solid #ddd;
+}
+
+/* ======= LISTS ======= */
+ul, ol {
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+/* ======= FOOTER ======= */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 0.9em;
+}
