@@ -1,0 +1,195 @@
+/* 
+    Name: WWE Website Project
+    Date: May 5, 2025
+    WWE Website Stylesheet
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#wrapper {
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #0066cc;
+}
+
+header h1 {
+    color: white;
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+
+header h2 {
+    color: #ff0000;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+/* Navigation Styles */
+.main-nav {
+    background-color: #333;
+    margin-bottom: 20px;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.main-nav a:hover {
+    background-color: #0066cc;
+}
+
+.main-nav a.active {
+    background-color: #ff0000;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #0066cc;
+    border-bottom: 2px solid #ff0000;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+h3 {
+    color: #ff0000;
+    text-align: center;
+}
+
+/* Images */
+.featured-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+    border: 3px solid white;
+}
+
+/* All wrestler images same size */
+.star-image, 
+.champion-image, 
+.future-star-image {
+    width: 250px;
+    height: 300px;
+    border: 3px solid #ff0000;
+    display: block;
+    margin: 0 auto 10px auto;
+    object-fit: cover;
+}
+
+/* Profile Cards */
+.star-profile, 
+.champion-card, 
+.future-star {
+    margin-bottom: 40px;
+    padding: 15px;
+    background-color: #222;
+    border: 1px solid #444;
+}
+
+.star-details, 
+.champion-info, 
+.future-star-details {
+    margin-top: 10px;
+}
+
+/* Lists */
+ul, ol {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    border-top: 3px solid #0066cc;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.footer-nav {
+    margin-bottom: 15px;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+p {
+    line-height: 1.4;
+}
+
+/* Simple media query for mobile */
+@media (max-width: 768px) {
+    .star-image, 
+    .champion-image, 
+    .future-star-image {
+        width: 200px;
+        height: 240px;
+    }
+    
+    .main-nav li {
+        display: block;
+        margin: 5px 0;
+    }
+}
